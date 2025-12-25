@@ -76,10 +76,10 @@ def save_palette(centroids):
     # palette image
 
     swatch_size = 64
-    palette_img = Image.new{
+    palette_img = Image.new(
         "RGB",
         (swatch_size * len(centroids), swatch_size)
-    }
+    )
 
     for i, color in enumerate(centroids):
         swatch  = Image.new("RGB", (swatch_size, swatch_size), tuple(color))
@@ -110,7 +110,7 @@ def main():
     print("VinciBit ==> COMPLETEE!")
 
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
 
 
