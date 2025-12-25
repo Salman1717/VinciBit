@@ -1,9 +1,11 @@
 /.DS_Store
-# Python virtual environments
-.venv/
-venv/
-env/
-.env/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+
+# Virtual environments
+venv/
+vinci_env/
+env/
+ENV/
+.venv/
